@@ -10,7 +10,7 @@
 <script setup>
 const router = useRouter();
 
-// Scroll to top after each navigation
+// Go back to top after each navigation
 router.afterEach(() => {
   window.scrollTo(0, 0);
 });
